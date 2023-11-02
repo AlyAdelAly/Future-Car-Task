@@ -1,0 +1,76 @@
+body {
+  background-color: #FFF3E0;
+}
+
+.main {
+  margin: 20px;
+}
+
+.heading {
+  width: 680px;
+  margin: 0 auto;
+  background-color: rgb(228, 227, 227);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px solid #5b5c5e;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: none;
+}
+
+.heading button {
+  height: fit-content;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #FFF;
+  background-color: #282c34;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.heading button:hover {
+  background-color: gray;
+}
+
+.car-list {
+  width: 680px;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid #5b5c5e;
+  border-top: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.car-list li {
+  list-style-type: none;
+}
+
+.car {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding: 0 25px;
+}
+
+.car_name {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #282c34;
+}
+
+.car_id {
+  margin-left: auto;
+  font-size: 20px;
+  font-weight: bold;
+  color: #282c34;
+}
