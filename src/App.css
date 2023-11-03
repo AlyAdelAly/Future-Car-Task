@@ -74,3 +74,19 @@ body {
   font-weight: bold;
   color: #282c34;
 }
+
+@media (min-width: 360px) and (max-width: 767px) {
+  
+  .car-list {
+    width: 380px;
+    padding: 10px;
+  }
+  
+  .heading {
+    width: 380px;
+    padding: 10px;
+    display: flex;
+  flex-direction: column;
+  }
+  
+}
